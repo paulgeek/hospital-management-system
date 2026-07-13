@@ -1,0 +1,98 @@
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Database files
+*.sqlite
+*.sqlite3
+database.sqlite
+database.sqlite3
+/database/*.sqlite
+/database/*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Composer
+composer.lock
+
+# Laravel
+/public/js/app.js
+/public/css/app.css
+/public/mix-manifest.json
+
+# Testing
+.phpunit.result.cache
+coverage/
+.coverage
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Log files
+*.log
+logs/
+
+# Sessions
+/storage/framework/sessions/*
+
+# Cache
+/storage/framework/cache/*
+/storage/framework/views/*
+
+# Uploads
+/storage/uploads/*
+/public/uploads/*
+
+# Environment variables (NEVER commit)
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Temporary files
+*.pid
+*.seed
+*.pid.lock
+*.tmp.*
+
+# Build artifacts
+/dist
+/build
+/coverage
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+.env.*.local
+*.pem
