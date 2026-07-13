@@ -94,6 +94,25 @@ The system comes with pre-configured user accounts for testing:
 
 ## Database Structure
 
+### Important: Database Not Included
+
+⚠️ **The database file is NOT included in the repository for security reasons.** 
+
+Database files (*.sqlite, *.sqlite3, database.sqlite) are excluded via `.gitignore`. 
+
+**To setup the database:**
+```bash
+php artisan migrate --seed
+```
+
+This command will:
+1. Create all database tables from migrations
+2. Seed roles, permissions, and test users
+3. Create 5 healthcare facilities
+4. Setup the complete system
+
+See **DATABASE_SETUP.md** for detailed database setup instructions.
+
 ### Core Tables
 - **users**: System users with role assignments
 - **healthcare_facilities**: Hospital, clinics, and healthcare centers

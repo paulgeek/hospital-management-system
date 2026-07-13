@@ -60,14 +60,21 @@ php artisan migrate
 ### 6. Seed Database with Default Data
 
 ```bash
+# Option 1: Combined (recommended)
+php artisan migrate --seed
+
+# Option 2: Separate commands
+php artisan migrate
 php artisan db:seed
 ```
 
 This will create:
-- Default system roles and permissions
+- Default system roles and permissions (7 roles, 24+ permissions)
 - 5 test healthcare facilities
 - 5 test user accounts with different roles
 - Admin account with credentials
+
+⚠️ **Note:** Database files are NOT included in the repository. They are created locally when you run the migrations and seeders above. See **DATABASE_SETUP.md** for more details.
 
 ### 7. Start Development Server
 
